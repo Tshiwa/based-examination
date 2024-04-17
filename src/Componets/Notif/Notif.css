@@ -1,0 +1,16 @@
+.notif{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 90px;
+    margin-right: 100px;
+    gap: 15px;
+}
+.block{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+.block img{
+    width: 40px;
+}

@@ -1,0 +1,132 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #fff;
+}
+.top{
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #242f49;
+}
+.top--left{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.top--left img{
+    width: 65px;
+    height: 55px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.top--left h1{
+    color: #ff9100;
+}
+.top--right{
+    display: flex;
+    gap: 30px;
+    margin-right: 80px;
+}
+.top--right a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.top--right button{
+    background: #ff9100;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 3px 10px #c7c7c7;
+}
+.top--right button:hover{
+    background: #262626;
+}
+.mid{
+    top: 100px;
+    right: 20px;
+    width: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    border-radius: 60px;
+    margin: 0 20px;
+    justify-content: space-between;
+    padding: 9px;
+    position: fixed;
+    background: #262626;
+}
+.close{
+    cursor: pointer;
+}
+.close:hover{
+    color: rgb(235, 1, 1);
+}
+.close::after .mid{
+    opacity: 0;
+}
+.main--nav,
+.min--nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    gap: 9px;
+    
+}
+.mid ul{
+    display: block;
+    align-items: center;
+    margin-left: -30px;
+}
+.mid li{
+    list-style: none;
+    cursor: pointer;
+}
+ul.mini--nav--mid{
+    background: #c7c7c7;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ico-nav{
+    color: white;
+    cursor: pointer;
+}
+.ico-nav:hover,
+.active{
+    color: #ff9100;
+    font-size: 35px;
+    font-weight: 600;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+}
+.search--bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.search--bar input{
+    width: 300px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background: #242f49;
+    margin-top: 5px;
+    border-radius: 25px;
+    border: none;
+}
+

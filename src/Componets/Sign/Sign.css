@@ -1,0 +1,61 @@
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    flex-direction: column;
+    gap: 10px;
+}
+.signup form{
+    padding: 20px;
+    background: #242f49;
+    color: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.mdb--3{
+    font-size: 20px;
+    display: flex;
+    gap: 7px;
+    margin: 5px 0;
+    flex-direction: column;
+}
+.mdb--3 input{
+    width: 310px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.log--in{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background: #ff9100;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.btn--account{
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #ff9100;
+    cursor: pointer;
+    transform: 0.3s;
+    border-radius: 20px;
+    color: #fff;
+}
+.btn--account:hover{
+    background: #ff9100;
+}
+.tex--error{
+    color: red;
+    font-size: 11px;
+    margin-top: -7px;
+}
